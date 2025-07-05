@@ -114,3 +114,8 @@ Here are some sample questions and the expected correct answers for different ad
 | ------------------------------------------- | --------------------------------------- |---|
 | "Which students have submitted their homework?" | David Kim                               |yes|
 | "Which all assessments are there?"          | Science Report - Cells, Essay on World War I |yes|
+
+## Screenshots
+![image1](screenshots/image1.png)
+
+![image2](screenshots/image2.png)
