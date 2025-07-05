@@ -1,0 +1,169 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "name": "Alice Johnson",
+      "grade": 8,
+      "class": "8A",
+      "region": "North"
+    },
+    {
+      "id": "S002",
+      "name": "Bob Martinez",
+      "grade": 8,
+      "class": "8A",
+      "region": "North"
+    },
+    {
+      "id": "S003",
+      "name": "Carol Singh",
+      "grade": 9,
+      "class": "9A",
+      "region": "East"
+    },
+    {
+      "id": "S004",
+      "name": "David Kim",
+      "grade": 9,
+      "class": "9A",
+      "region": "South"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM001",
+      "name": "John Smith",
+      "grades": 8,
+      "classes": "8A",
+      "region": "North"
+    
+    },
+    {
+      "id": "ADM002",
+      "name": "Priya Patel",
+      "grades": 9,
+      "classes": "9A",
+      "region": "South"
+    
+    }
+  ],
+  "classes": [
+    {
+      "id": "C001",
+      "grade": 8,
+      "class": "8A",
+      "teacher": "Mr. Walker"
+    },
+    {
+      "id": "C002",
+      "grade": 9,
+      "class": "9A",
+      "teacher": "Ms. Green"
+    },
+    {
+      "id": "C003",
+      "grade": 9,
+      "class": "9B",
+      "teacher": "Mr. Chen"
+    }
+  ],
+  "exams": [
+    {
+      "id": "E001",
+      "subject": "Mathematics",
+      "date": "2024-08-01",
+      "grade": 8,
+      "class": "8A"
+    },
+    {
+      "id": "E002",
+      "subject": "Science",
+      "date": "2024-08-03",
+      "grade": 9,
+      "class": "9A"
+    },
+    {
+      "id": "E003",
+      "subject": "History",
+      "date": "2024-08-04",
+      "grade": 9,
+      "class": "9B"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "A001",
+      "title": "Math Homework Chapter 5",
+      "due_date": "2024-07-10",
+      "grade": 8,
+      "class": "8A"
+    },
+    {
+      "id": "A002",
+      "title": "Science Report - Cells",
+      "due_date": "2024-07-12",
+      "grade": 9,
+      "class": "9A"
+    },
+    {
+      "id": "A003",
+      "title": "Essay on World War I",
+      "due_date": "2024-07-14",
+      "grade": 9,
+      "class": "9A"
+    }
+  ],
+  "submissions": [
+    {
+      "student_id": "S001",
+      "assignment_id": "A001",
+      "submitted": true,
+      "submission_date": "2024-07-09",
+      "score": 85
+    },
+    {
+      "student_id": "S002",
+      "assignment_id": "A001",
+      "submitted": true,
+      "submission_date": "2024-07-10",
+      "score": 92
+    },
+    {
+      "student_id": "S004",
+      "assignment_id": "A002",
+      "submitted": true,
+      "submission_date": "2024-07-11",
+      "score": 88
+    },
+    {
+      "student_id": "S003",
+      "assignment_id": "A003",
+      "submitted": false,
+      "submission_date": null,
+      "score": null
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "title": "Science Quiz - Photosynthesis",
+      "scheduled_date": "2024-07-15",
+      "grade": 8,
+      "class": "8A"
+    },
+    {
+      "id": "Q002",
+      "title": "Math Quiz - Algebra",
+      "scheduled_date": "2024-07-16",
+      "grade": 9,
+      "class": "9A"
+    },
+    {
+      "id": "Q003",
+      "title": "History Quiz - Ancient Civilizations",
+      "scheduled_date": "2024-07-17",
+      "grade": 9,
+      "class": "9B"
+    }
+  ]
+}
